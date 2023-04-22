@@ -12,6 +12,10 @@ function App() {
       <section>
         <Hero/>
       </section>
+
+      <section>
+        <About/>
+      </section>
     </div>
   );
 }

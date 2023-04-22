@@ -3,24 +3,25 @@ import { SocialIcon } from "react-social-icons";
 
 export const Navbar = () => {
   return (
-    <div 
-    class='ml-3 mr-3 grid grid-cols-3 sticky top-0
-    md:grid-cols-6 border-b-[#cc9933] border-b-2'>
+    <div
+    id='navbar'
+    class='grid grid-cols-3 fixed top-0 bg-[#fdfbfb]
+    md:grid-cols-6 border-b-[#bb6d79] md:w-screen border-b-2 z-20'>
       
       <div 
-      class="text-[#cc9933] font-lobster text-[1.75rem] p-3 text-center
-      lg:col-span-2 md:border-r-2 md:border-r-[#cc9933] md:col-span-3">
+      class="text-[#bb6d79] font-lobster text-[1.75rem] p-3 text-center
+      lg:col-span-2 md:border-r-2 md:border-r-[#bb6d79] md:col-span-3">
         
         <h1>Jacquelin_Velasquez.</h1>
       
       </div>
       
       <div 
-      class='bg-[#e0d7c7] w-[23rem] rounded-3xl p-[1rem] overflow-hidden fixed bottom-4 col-span-3 text-[.8rem] left-2
-      md:bg-transparent md:top-0 md:ml-0 md:relative md:rounded-none md:border-r-2 md:pt-5 md:w-full md:border-r-[#cc9933] md:text-md lg:text-lg lg:col-span-4 '>
+      class='bg-[#fbdedeec] w-[23rem] rounded-3xl p-[1rem] overflow-hidden fixed bottom-4 col-span-3 text-[.8rem] left-2
+      md:bg-transparent md:top-0 md:ml-0 md:relative md:rounded-none md:border-r-2 md:pt-5 md:w-full md:border-r-[#bb6d79] md:text-md lg:text-lg lg:col-span-4 '>
         
         <ul 
-        class="flex gap-6 text-[#cc9933] uppercase font-slab font-light justify-center">
+        class="flex gap-6 text-[#bb6d79] uppercase font-slab font-light justify-center">
           <li class=' hover:underline'>About Me</li>
           <li class=' hover:underline'>Projects</li>
           <li class=' hover:underline'>Skills</li>
@@ -35,12 +36,12 @@ export const Navbar = () => {
         
         <SocialIcon
           url="https://www.linkedin.com/in/jacquelinvelasquez"
-          fgColor="#cc9933"
+          fgColor="#bb6d79"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/v-jacx"
-          fgColor="#cc9933"
+          fgColor="#bb6d79"
           bgColor="transparent"
         />
 
